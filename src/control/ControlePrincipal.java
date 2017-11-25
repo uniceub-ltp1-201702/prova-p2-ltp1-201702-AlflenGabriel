@@ -22,7 +22,7 @@ public class ControlePrincipal {
 		//Instanciar a ViewPrincipal
 		this.vp = new ViewPrincipal();
 		//Criar controles
-		this.mpe = new ControleModPEsporte(this.bd);
+		this.cpm = new ControlePesqModalidade(this.bd);
 	
 
 		
